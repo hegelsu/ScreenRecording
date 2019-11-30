@@ -1,0 +1,379 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E6206D3D23715CE7007B2909 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E6206D3C23715CE7007B2909 /* AppDelegate.m */; };
+		E6206D4323715CE7007B2909 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6206D4223715CE7007B2909 /* ViewController.m */; };
+		E6206D4623715CE7007B2909 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6206D4423715CE7007B2909 /* Main.storyboard */; };
+		E6206D4823715CEA007B2909 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6206D4723715CEA007B2909 /* Assets.xcassets */; };
+		E6206D4B23715CEA007B2909 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6206D4923715CEA007B2909 /* LaunchScreen.storyboard */; };
+		E6206D4E23715CEA007B2909 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E6206D4D23715CEA007B2909 /* main.m */; };
+		E6206D5723715D51007B2909 /* KWScreenCapture.m in Sources */ = {isa = PBXBuildFile; fileRef = E6206D5623715D51007B2909 /* KWScreenCapture.m */; };
+		E6206D5A23715DDB007B2909 /* KWAudioRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = E6206D5923715DDB007B2909 /* KWAudioRecord.m */; };
+		E6206D5D237164F0007B2909 /* KWScreenRecordingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E6206D5C237164F0007B2909 /* KWScreenRecordingManager.m */; };
+		E6206D642371A44C007B2909 /* KWScreenRecordingUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = E6206D632371A44C007B2909 /* KWScreenRecordingUtilities.m */; };
+		E682B45C239129210098C410 /* image@2x.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = E682B45B239129210098C410 /* image@2x.jpeg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E6206D3823715CE7007B2909 /* ScreenRecordingDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScreenRecordingDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6206D3B23715CE7007B2909 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E6206D3C23715CE7007B2909 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E6206D4123715CE7007B2909 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E6206D4223715CE7007B2909 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E6206D4523715CE7007B2909 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E6206D4723715CEA007B2909 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E6206D4A23715CEA007B2909 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E6206D4C23715CEA007B2909 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6206D4D23715CEA007B2909 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E6206D5523715D51007B2909 /* KWScreenCapture.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KWScreenCapture.h; sourceTree = "<group>"; };
+		E6206D5623715D51007B2909 /* KWScreenCapture.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KWScreenCapture.m; sourceTree = "<group>"; };
+		E6206D5823715DDB007B2909 /* KWAudioRecord.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KWAudioRecord.h; sourceTree = "<group>"; };
+		E6206D5923715DDB007B2909 /* KWAudioRecord.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KWAudioRecord.m; sourceTree = "<group>"; };
+		E6206D5B237164F0007B2909 /* KWScreenRecordingManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KWScreenRecordingManager.h; sourceTree = "<group>"; };
+		E6206D5C237164F0007B2909 /* KWScreenRecordingManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KWScreenRecordingManager.m; sourceTree = "<group>"; };
+		E6206D622371A44C007B2909 /* KWScreenRecordingUtilities.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KWScreenRecordingUtilities.h; sourceTree = "<group>"; };
+		E6206D632371A44C007B2909 /* KWScreenRecordingUtilities.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KWScreenRecordingUtilities.m; sourceTree = "<group>"; };
+		E682B45B239129210098C410 /* image@2x.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "image@2x.jpeg"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E6206D3523715CE7007B2909 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E6206D2F23715CE7007B2909 = {
+			isa = PBXGroup;
+			children = (
+				E682B45B239129210098C410 /* image@2x.jpeg */,
+				E6206D3A23715CE7007B2909 /* ScreenRecordingDemo */,
+				E6206D3923715CE7007B2909 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E6206D3923715CE7007B2909 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E6206D3823715CE7007B2909 /* ScreenRecordingDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E6206D3A23715CE7007B2909 /* ScreenRecordingDemo */ = {
+			isa = PBXGroup;
+			children = (
+				E6206D3B23715CE7007B2909 /* AppDelegate.h */,
+				E6206D3C23715CE7007B2909 /* AppDelegate.m */,
+				E6206D4123715CE7007B2909 /* ViewController.h */,
+				E6206D4223715CE7007B2909 /* ViewController.m */,
+				E6206D5423715D21007B2909 /* ScreenRecording */,
+				E6206D4423715CE7007B2909 /* Main.storyboard */,
+				E6206D4723715CEA007B2909 /* Assets.xcassets */,
+				E6206D4923715CEA007B2909 /* LaunchScreen.storyboard */,
+				E6206D4C23715CEA007B2909 /* Info.plist */,
+				E6206D4D23715CEA007B2909 /* main.m */,
+			);
+			path = ScreenRecordingDemo;
+			sourceTree = "<group>";
+		};
+		E6206D5423715D21007B2909 /* ScreenRecording */ = {
+			isa = PBXGroup;
+			children = (
+				E6206D5523715D51007B2909 /* KWScreenCapture.h */,
+				E6206D5623715D51007B2909 /* KWScreenCapture.m */,
+				E6206D5823715DDB007B2909 /* KWAudioRecord.h */,
+				E6206D5923715DDB007B2909 /* KWAudioRecord.m */,
+				E6206D5B237164F0007B2909 /* KWScreenRecordingManager.h */,
+				E6206D5C237164F0007B2909 /* KWScreenRecordingManager.m */,
+				E6206D622371A44C007B2909 /* KWScreenRecordingUtilities.h */,
+				E6206D632371A44C007B2909 /* KWScreenRecordingUtilities.m */,
+			);
+			path = ScreenRecording;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E6206D3723715CE7007B2909 /* ScreenRecordingDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6206D5123715CEA007B2909 /* Build configuration list for PBXNativeTarget "ScreenRecordingDemo" */;
+			buildPhases = (
+				E6206D3423715CE7007B2909 /* Sources */,
+				E6206D3523715CE7007B2909 /* Frameworks */,
+				E6206D3623715CE7007B2909 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScreenRecordingDemo;
+			productName = ScreenRecordingDemo;
+			productReference = E6206D3823715CE7007B2909 /* ScreenRecordingDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E6206D3023715CE7007B2909 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = KW;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = kuwo;
+				TargetAttributes = {
+					E6206D3723715CE7007B2909 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+				};
+			};
+			buildConfigurationList = E6206D3323715CE7007B2909 /* Build configuration list for PBXProject "ScreenRecordingDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E6206D2F23715CE7007B2909;
+			productRefGroup = E6206D3923715CE7007B2909 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E6206D3723715CE7007B2909 /* ScreenRecordingDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E6206D3623715CE7007B2909 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6206D4B23715CEA007B2909 /* LaunchScreen.storyboard in Resources */,
+				E6206D4823715CEA007B2909 /* Assets.xcassets in Resources */,
+				E682B45C239129210098C410 /* image@2x.jpeg in Resources */,
+				E6206D4623715CE7007B2909 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E6206D3423715CE7007B2909 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6206D5D237164F0007B2909 /* KWScreenRecordingManager.m in Sources */,
+				E6206D4323715CE7007B2909 /* ViewController.m in Sources */,
+				E6206D5A23715DDB007B2909 /* KWAudioRecord.m in Sources */,
+				E6206D3D23715CE7007B2909 /* AppDelegate.m in Sources */,
+				E6206D5723715D51007B2909 /* KWScreenCapture.m in Sources */,
+				E6206D4E23715CEA007B2909 /* main.m in Sources */,
+				E6206D642371A44C007B2909 /* KWScreenRecordingUtilities.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E6206D4423715CE7007B2909 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E6206D4523715CE7007B2909 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E6206D4923715CEA007B2909 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E6206D4A23715CEA007B2909 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E6206D4F23715CEA007B2909 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E6206D5023715CEA007B2909 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E6206D5223715CEA007B2909 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PUMZ27CYF9;
+				INFOPLIST_FILE = ScreenRecordingDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.kuwo6.demo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E6206D5323715CEA007B2909 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PUMZ27CYF9;
+				INFOPLIST_FILE = ScreenRecordingDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.kuwo6.demo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E6206D3323715CE7007B2909 /* Build configuration list for PBXProject "ScreenRecordingDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6206D4F23715CEA007B2909 /* Debug */,
+				E6206D5023715CEA007B2909 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6206D5123715CEA007B2909 /* Build configuration list for PBXNativeTarget "ScreenRecordingDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6206D5223715CEA007B2909 /* Debug */,
+				E6206D5323715CEA007B2909 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E6206D3023715CE7007B2909 /* Project object */;
+}
